@@ -197,75 +197,37 @@ footer {
     width: 220px;
    padding: .5em;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 640px) {
     body {
-        font-family: 'Segoe UI', sans-serif;
-        background-color: #fdf6e3; /* Amarillo pastel */
-        color: #333333; /* Color de texto */
-        margin: 0;
-        padding: 0;
-        size-adjust: 95%;
-        margin-right: 250px;
+        margin-right: 0;
     }
-    
-    
-    
+
     nav {
         position: fixed;
         top: 0;
         right: 0;
-        width: 250px;
-        height: 100%;
-        background-color: #badc58; /* Verde pastel */
-        padding: 20px;
+        width: 100%;
+        height: auto;
+        background-color: #badc58;
+        padding: 10px 0; /* Reducir el padding para un aspecto más delgado */
         box-sizing: border-box;
-        overflow-y: auto; /* Permite desplazarse si el contenido excede la altura */
-        size-adjust: 5%;
-    }
-    
-    
-    
-    section {
-        padding: 20px;
-        size-adjust: 95%;
-    }
-    
-    
-    .logo {
-        width: 40px; /* Tamaño de los logos */
-        height: 40px;
-    }
-    
-    
-    /* BARRA DE PROGRESO */
-    progress {
-        appearance: none; /* Elimina los estilos predeterminados del navegador */
-        background-color: #d3d3d3; /* Cambia el color de fondo */
-        width: 50px; /* Mismo ancho que el logo */
+        overflow-y: auto;
         display: flex;
+        flex-wrap: wrap; /* Permitir envolver elementos */
+        justify-content: space-around;
+        align-items: center; /* Centrar verticalmente los elementos */
     }
-    
-    progress::-webkit-progress-bar {
-        background-color: #fff6f6; /* Cambia el color de fondo en Chrome */
+
+    nav a {
+        color: #333333;
+        text-decoration: none;
+        margin-bottom: 10px; /* Agregar espacio entre elementos */
+        padding: 5px 15px; /* Aumentar el espacio de relleno */
+        border-radius: 5px; /* Agregar bordes redondeados */
+        transition: background-color 0.3s ease; /* Agregar transición suave */
     }
-    
-    progress::-webkit-progress-value {
-        background-color: #ffb6b9; /* Cambia el color de la barra de progreso en Chrome */
-    }
-    
-    progress::-moz-progress-bar {
-        background-color: #ffb6b9; /* Cambia el color de la barra de progreso en Firefox */
-    }
-    
-   
-    footer {
-        background-color: #707e36c0;
-        color: #cdf2f0;
-        text-align:start;
-        padding: 10px 0;
-        position: fixed;
-        bottom: 0;
-        width: 100px;
-       padding: .5em;
+
+    nav a:hover {
+        background-color: #93c572; /* Cambiar el color de fondo al pasar el ratón */
     }
 }
