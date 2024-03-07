@@ -197,7 +197,7 @@ footer {
     width: 220px;
    padding: .5em;
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 480px) {
     body {
         margin-right: 0;
     }
@@ -209,25 +209,25 @@ footer {
         width: 100%;
         height: auto;
         background-color: #badc58;
-        padding: 10px 0; /* Reducir el padding para un aspecto más delgado */
+        padding: 5px 0; /* Reducir el padding */
         box-sizing: border-box;
         overflow-y: auto;
         display: flex;
-        flex-wrap: wrap; /* Permitir envolver elementos */
+        flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center; /* Centrar verticalmente los elementos */
+        align-items: center;
     }
 
     nav a {
         color: #333333;
         text-decoration: none;
-        margin-bottom: 10px; /* Agregar espacio entre elementos */
-        padding: 5px 15px; /* Aumentar el espacio de relleno */
-        border-radius: 5px; /* Agregar bordes redondeados */
-        transition: background-color 0.3s ease; /* Agregar transición suave */
+        margin: 5px; /* Reducir el margen entre elementos */
+        padding: 5px 10px; /* Reducir el padding */
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
     }
 
     nav a:hover {
-        background-color: #93c572; /* Cambiar el color de fondo al pasar el ratón */
+        background-color: #93c572;
     }
 }
