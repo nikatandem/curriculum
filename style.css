@@ -1,0 +1,199 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6e3; /* Amarillo pastel */
+    color: #333333; /* Color de texto */
+    margin: 0;
+    padding: 0;
+    size-adjust: 85%;
+    margin-right: 250px;
+}
+
+h1 {
+    color: #a788ab; /* Color principal */
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family:Verdana;
+    text-shadow: #c99ad6 2px 2px 4px;
+    size-adjust: 85%;
+}
+
+h2 {
+    color: #a788ab; /* Color principal */
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family:Verdana;
+    size-adjust: 85%;
+}
+
+h3 {
+    color: #a788ab; /* Color principal */
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family:Tahoma;
+    font-variant: small-caps;
+    size-adjust: 85%;
+    
+}
+
+h4 {
+    color: #c0a0c3; /* Melocotón pastel */
+    font-size: 25px;
+    padding: .2em;
+    size-adjust: 85%;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #badc58; /* Verde pastel */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Permite desplazarse si el contenido excede la altura */
+    size-adjust: 15%;
+}
+
+nav a {
+    color: #333333; /* Color de texto */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+section {
+    background-color: #c7f7f7ca; /* Azul pastel */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    size-adjust: 85%;
+}
+
+
+ul {
+    list-style-type: circle;
+    padding: 0;
+    margin-left: 3em;
+    margin-bottom: 5px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 20px;
+    size-adjust: 85%;
+}
+
+/* Estilo para ocultar todas las secciones excepto la primera */
+section:not(:first-child) {
+    display: none;
+}
+
+.logo-container {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: .5fr .5fr 1fr 1fr 1fr; /* Divide el contenedor en tres secciones iguales */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.logo {
+    width: 100px; /* Tamaño de los logos */
+    height: 100px;
+    padding: .4em;
+}
+
+.lenguaje {
+    font-style: bold;
+    font-size: x-large;
+    color: #ffffff;
+    text-shadow: #333333 3px 2px 5px;
+}
+
+/* BARRA DE PROGRESO */
+progress {
+    appearance: none; /* Elimina los estilos predeterminados del navegador */
+    background-color: #d3d3d3; /* Cambia el color de fondo */
+    width: 200px; /* Mismo ancho que el logo */
+    display: flex;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #fff6f6; /* Cambia el color de fondo en Chrome */
+}
+
+progress::-webkit-progress-value {
+    background-color: #ffb6b9; /* Cambia el color de la barra de progreso en Chrome */
+}
+
+progress::-moz-progress-bar {
+    background-color: #ffb6b9; /* Cambia el color de la barra de progreso en Firefox */
+}
+
+
+
+
+
+button {
+    background-color: #F2C5BB; /* Color de acento */
+    color: #ffffff; /* Color de texto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #F299B1; /* Cambio de color de acento al pasar el cursor */
+}
+#btn-print{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+}
+/* Estilo de trabajos */
+
+.puesto{
+text-decoration: underline;
+font-size: large;
+}
+.empresa{
+font-variant: small-caps;
+}
+.fecha{
+
+}
+.descripcion{
+font-style: italic;
+}
+/* IMAGEN */
+#foto{
+border: solid white .5em;
+border-radius: 50%;
+
+}
+
+footer {
+    background-color: #707e36c0;
+    color: #cdf2f0;
+    text-align:start;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 220px;
+   padding: .5em;
+}

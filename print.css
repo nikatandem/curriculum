@@ -1,0 +1,77 @@
+  .no-print{
+    display:none;
+  }
+  .carta {
+    margin-right: 0px;
+}
+body{
+  margin-right: 0px;
+  size-adjust: 100%;
+}
+.logo-container {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center; 
+}
+.logo {
+  width: 50px; /* Tamaño de los logos */
+  height: 50px;
+  padding: .4em;
+}
+.lenguaje {
+  font-style: bold;
+  font-size: x-large;
+  color: black;
+  text-shadow: none;
+}
+h4 {
+  color: #c0a0c3; /* Melocotón pastel */
+  font-size: 25px;
+  text-align: justify;
+  padding: .2em;
+  margin-left: auto;
+}
+h1{
+
+    color: #a788ab; /* Color principal */
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family:Verdana;
+    text-shadow:none;
+
+}
+  @media print {
+    /* Tamaño de fuente para A4 */
+    @page {
+      size: A4;
+      margin: 2cm;
+    }
+    body {
+      font-size: 12pt;
+    }
+  
+    /* Tamaño de fuente para Carta */
+    @page {
+      size: letter;
+      margin: 1in;
+    }
+    body {
+      font-size: 11pt;
+    }
+  }  
+  @media print {
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #333;
+      color: white;
+    }
+  }
+
+
+  
