@@ -197,7 +197,7 @@ footer {
     width: 220px;
    padding: .5em;
 }
-@media screen and (max-width: 600){
+@media screen and (max-width: 500px){
     body {
         font-family: 'Segoe UI', sans-serif;
         background-color: #fdf6e3; /* Amarillo pastel */
