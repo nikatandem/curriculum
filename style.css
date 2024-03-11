@@ -183,7 +183,7 @@ progress::-moz-progress-bar {
 }
 
 button {
-    background-color: #F2C5BB;
+    background-color:  #F299B1;
     /* Color de acento */
     color: #ffffff;
     /* Color de texto */
@@ -197,7 +197,7 @@ button {
 }
 
 button:hover {
-    background-color: #F299B1;
+    background-color: #f4ae9e;
     /* Cambio de color de acento al pasar el cursor */
 }
 
@@ -221,7 +221,10 @@ button:hover {
 .descripcion {
     font-style: italic;
 }
-
+#icono{
+    width: 15px;
+    height: 15px;
+}
 /* IMAGEN */
 #foto {
     border: solid white .5em;

@@ -43,6 +43,7 @@ h1{
 
 }
 
+
   @media print {
     /* Tamaño de fuente para A4 */
     @page {
@@ -61,7 +62,23 @@ h1{
     body {
       font-size: 11pt;
     }
+    h2, h3, h4, h5, h6 {
+      page-break-inside: avoid;
   }  
+  #FormacionAcademica, 
+    #FormacionComplementaria, 
+    #ExperienciaLaboral, 
+    #Practicas, 
+    #Tecnologias, 
+    #Enlaces {
+    page-break-inside: avoid;
+  }}
+
+
+
+
+
+
   @media print {
     header {
       position: fixed;
