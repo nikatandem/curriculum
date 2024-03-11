@@ -42,6 +42,7 @@ h1{
     text-shadow:none;
 
 }
+
   @media print {
     /* Tamaño de fuente para A4 */
     @page {
