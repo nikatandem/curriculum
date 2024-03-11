@@ -115,7 +115,6 @@ section:not(:first-child) {
 
 .logo-container {
     margin-left: 20px;
-    text-align: inherit;
     align-items: center;
     /* Centra verticalmente los elementos dentro del contenedor */
     gap: 10px;

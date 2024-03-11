@@ -19,12 +19,7 @@ body{
   height: 50px;
   padding: .4em;
 }
-.lenguaje {
-  font-style: bold;
-  font-size: x-large;
-  color: black;
-  text-shadow: none;
-}
+
 h4 {
   color: #c0a0c3; /* Melocotón pastel */
   font-size: 25px;
@@ -60,7 +55,7 @@ h1{
       margin: 1in;
     }
     body {
-      font-size: 11pt;
+      font-size: 10pt;
     }
     h2, h3, h4, h5, h6 {
       page-break-inside: avoid;
@@ -72,7 +67,21 @@ h1{
     #Tecnologias, 
     #Enlaces {
     page-break-inside: avoid;
-  }}
+  }
+  .lenguaje {
+
+    font-style: bold;
+    font-size: 10pt;
+    color: black;
+    text-shadow: none;
+  }
+  .logo-container {
+    margin-left: 10px;
+    align-items: center;
+    gap: 5px;
+    flex-basis: calc(25% - 20px);
+    text-align: center;
+}}
 
 
 
