@@ -14,6 +14,7 @@ h1 {
     text-align: center;
     font-family:Verdana;
     size-adjust: 85%;
+    margin-left: 20px;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
     margin-bottom: 10px;
     font-family:Verdana;
     size-adjust: 85%;
+    margin-left: 20px;
 }
 
 
@@ -33,6 +35,7 @@ h3 {
     font-family:Tahoma;
     font-variant: small-caps;
     size-adjust: 85%;
+    margin-left: 20px;
 }
 
 h4 {
