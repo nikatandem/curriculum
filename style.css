@@ -270,6 +270,7 @@ footer {
         width: 100%;
         height: auto;
         background-color: #5554ad;
+        color: whitesmoke;
         padding: 5px 0;
         /* Reducir el padding */
         box-sizing: border-box;
