@@ -1,56 +1,46 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #fdf6e3;
-    /* Amarillo pastel */
-    color: #333333;
-    /* Color de texto */
+    background-color: #95aaae19; 
+    color: #060752;
     margin: 0;
     padding: 0;
     size-adjust: 85%;
     margin-right: 250px;
 }
-
 h1 {
-    color: #a788ab;
-    /* Color principal */
+    color: #0a0333c8; 
     font-size: 28px;
     margin-bottom: 15px;
     text-align: center;
-    font-family: Verdana;
-    text-shadow: #c99ad6 2px 2px 4px;
+    font-family:Verdana;
     size-adjust: 85%;
-    margin-left: 20px;
 }
 
 h2 {
-    color: #a788ab;
-    /* Color principal */
+    color: #454298;
     font-size: 24px;
     margin-bottom: 10px;
-    font-family: Verdana;
+    font-family:Verdana;
     size-adjust: 85%;
-    margin-left: 20px;
 }
 
+
+
 h3 {
-    color: #a788ab;
-    /* Color principal */
+    color: #454298; 
     font-size: 15px;
     margin-bottom: 10px;
-    font-family: Tahoma;
+    font-family:Tahoma;
     font-variant: small-caps;
     size-adjust: 85%;
-    margin-left: 20px;
-
 }
 
 h4 {
-    color: #c0a0c3;
-    /* Melocotón pastel */
+    color: #454298; 
     font-size: 25px;
     padding: .2em;
     size-adjust: 85%;
-
+    
 }
 
 nav {
@@ -59,18 +49,15 @@ nav {
     right: 0;
     width: 250px;
     height: 100%;
-    background-color: #badc58;
-    /* Verde pastel */
+    background-color: #5554ad;
     padding: 20px;
     box-sizing: border-box;
-    overflow-y: auto;
-    /* Permite desplazarse si el contenido excede la altura */
+    overflow-y: auto; 
     size-adjust: 15%;
 }
 
 nav a {
-    color: #333333;
-    /* Color de texto */
+    color: whitesmoke; 
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
@@ -78,8 +65,7 @@ nav a {
 
 
 section {
-    background-color: #c7f7f7ca;
-    /* Azul pastel */
+    background-color: #7c798e68; 
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -172,20 +158,16 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: #ffb6b9;
-    /* Cambia el color de la barra de progreso en Chrome */
+    background-color: #5c7bdb
 }
 
 progress::-moz-progress-bar {
-    background-color: #ffb6b9;
-    /* Cambia el color de la barra de progreso en Firefox */
+    background-color: #5c7bdb
 }
 
 button {
-    background-color:  #F299B1;
-    /* Color de acento */
+    background-color: #3d56d3;
     color: #ffffff;
-    /* Color de texto */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -196,7 +178,7 @@ button {
 }
 
 button:hover {
-    background-color: #f4ae9e;
+    background-color: #246991;
     /* Cambio de color de acento al pasar el cursor */
 }
 
@@ -231,8 +213,8 @@ button:hover {
 }
 
 footer {
-    background-color: #707e36c0;
-    color: #cdf2f0;
+    background-color:  #19233175;
+    color: whitesmoke;
     text-align: end;
     padding: 10px 0;
     position: fixed;
