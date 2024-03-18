@@ -71,6 +71,8 @@ nav a {
 nav a:hover {
     background-color: rgba(113, 81, 209, 0.367);
     padding: .25em;
+    border: solid rgba(113, 81, 209, 0.367);
+ 
 }
 
 section {
