@@ -65,7 +65,10 @@ nav a {
     display: block;
     margin-bottom: 10px;
 }
-
+nav a:hover {
+    background-color: rgba(113, 81, 209, 0.367);
+    padding: .25em;
+}
 
 section {
     background-color: #7c798e68; 
@@ -251,7 +254,7 @@ footer {
         right: 0;
         width: 100%;
         height: auto;
-        background-color: #badc58;
+        background-color: #5554ad;
         padding: 5px 0;
         /* Reducir el padding */
         box-sizing: border-box;
@@ -274,7 +277,7 @@ footer {
     }
 
     nav a:hover {
-        background-color: #93c572;
+        background-color: rgba(113, 81, 209, 0.367);
     }
 
     #footer {
